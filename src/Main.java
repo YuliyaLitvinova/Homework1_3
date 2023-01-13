@@ -18,13 +18,17 @@ public class Main {
         System.out.println("Значение переменной d с типом long = " +d);
         System.out.println("Значение переменной e с типом float = " +e);
         System.out.println("Значение переменной f с типом double = " +f);
-
-
-
+        System.out.println();
     }
 
     public static void task2 () {
         System.out.println("Задача 2");
-        // Пишем код для задачи 2
+        float a2 = 27.12f;
+        long b2 = 987_678_965_549L;
+        double c2 = 2.786;
+        short d2 = 569;
+        short e2 = -159;
+        int f2 = 27897;
+        byte g2 = 67;
     }
 }
