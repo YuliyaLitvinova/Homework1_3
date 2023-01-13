@@ -2,6 +2,12 @@ public class Main {
     public static void main(String[] args) {
         task1();
         task2();
+        task3();
+        task4();
+        task5();
+        task6();
+        task7();
+        task8();
     }
 
     public static void task1 () {
@@ -30,5 +36,41 @@ public class Main {
         short e2 = -159;
         int f2 = 27897;
         byte g2 = 67;
+        System.out.println();
+    }
+    public static void task3 () {
+        System.out.println("Задача 3");
+        short CountStudentsLP = 23;
+        short CountStudentsAS = 27;
+        short ContStudentsEA = 30;
+        int CountPaper = 480;
+        int CountPaperPerStudent = CountPaper/(CountStudentsLP+CountStudentsAS+ContStudentsEA);
+        System.out.println("На каждого ученика рассчитано " + CountPaperPerStudent+ " листов бумаги ");
+        System.out.println();
+    }
+    public static void task4 () {
+        System.out.println("Задача 4");
+        System.out.println();
+
+    }
+    public static void task5 () {
+        System.out.println("Задача 5");
+        System.out.println();
+
+    }
+    public static void task6 () {
+        System.out.println("Задача 6");
+        System.out.println();
+
+    }
+    public static void task7 () {
+        System.out.println("Задача 7");
+        System.out.println();
+
+    }
+    public static void task8 () {
+        System.out.println("Задача 8");
+        System.out.println();
+
     }
 }
