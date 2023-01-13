@@ -88,6 +88,22 @@ public class Main {
     }
     public static void task6 () {
         System.out.println("Задача 6");
+        byte OneBananaWeight = 80;
+        byte OneHundredMlMilkWeight = 105;
+        byte OneIcecraemWeight = 100;
+        byte OneEggWeight = 70;
+        byte CountBananas = 5;
+        byte CountMilk = 2;
+        byte CountIcecream = 2;
+        byte CountEggs = 4;
+        double TotalWeightGrams = (OneBananaWeight*CountBananas)+(OneHundredMlMilkWeight*CountMilk+(OneIcecraemWeight*CountIcecream)+(OneEggWeight*CountEggs));
+        System.out.println("Общий вес в граммах = "+ TotalWeightGrams + " г");
+        double TotalWeightKg = TotalWeightGrams / 1000;
+        System.out.println("Общий вес в килограммах = "+ TotalWeightKg + " кг");
+
+
+
+
         System.out.println();
 
     }
