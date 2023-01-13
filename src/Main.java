@@ -100,15 +100,24 @@ public class Main {
         System.out.println("Общий вес в граммах = "+ TotalWeightGrams + " г");
         double TotalWeightKg = TotalWeightGrams / 1000;
         System.out.println("Общий вес в килограммах = "+ TotalWeightKg + " кг");
-
-
-
-
         System.out.println();
 
     }
     public static void task7 () {
         System.out.println("Задача 7");
+        short TotalWeight = 7000;
+        short LoseWeightPerDay_1 = 250;
+        short LoseWeightPerDay_2 = 500;
+        int CountDays_1 = TotalWeight/LoseWeightPerDay_1;
+        int CountDays_2 = TotalWeight/LoseWeightPerDay_2;
+        int MeanCountDays = (CountDays_1 +CountDays_2)/2;
+        System.out.println(" Если спортсмен будет терять в день по "+LoseWeightPerDay_1+" г, то ему потребуется "+ CountDays_1+ " дней.");
+        System.out.println(" Если спортсмен будет терять в день по " +LoseWeightPerDay_2 +" г, то ему потребуется "+ CountDays_2+ " дней.");
+        System.out.println(" Среднее кол-во дней, которое спортсмен потратит на похудение равно " +MeanCountDays );
+
+
+
+
         System.out.println();
 
     }

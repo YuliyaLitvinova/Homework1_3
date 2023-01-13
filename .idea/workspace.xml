@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8e82123-ac46-4ccf-98fa-063a24b178f6" name="Changes" comment="Задача 5">
+    <list default="true" id="e8e82123-ac46-4ccf-98fa-063a24b178f6" name="Changes" comment="Задача 6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -71,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673605103632</updated>
-      <workItem from="1673605105355" duration="11489000" />
+      <workItem from="1673605105355" duration="12316000" />
     </task>
     <task id="LOCAL-00001" summary="Домашка1_3">
       <created>1673606774611</created>
@@ -115,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673615415491</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Задача 6">
+      <created>1673618471206</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673618471206</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +135,7 @@
     <MESSAGE value="Задача 3" />
     <MESSAGE value="Задача 4" />
     <MESSAGE value="Задача 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Задача 5" />
+    <MESSAGE value="Задача 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Задача 6" />
   </component>
 </project>
