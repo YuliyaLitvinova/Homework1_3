@@ -50,6 +50,32 @@ public class Main {
     }
     public static void task4 () {
         System.out.println("Задача 4");
+        byte BottlePer2Minutes = 16;
+        byte Minutes_1 = 2;
+        int BottlePerMinute = BottlePer2Minutes/Minutes_1;
+        int BottlePerDay = BottlePerMinute * 1440;
+
+        int CastomMinutes = 20;
+        int BottlePerCastomMinutes = BottlePerMinute*CastomMinutes;
+
+        int CastomDays = 1;
+        int BottlePerCastomDays_1 = BottlePerDay*CastomDays;
+
+       int CastomDays_2 = CastomDays +2;
+        int BottlePerCastomDays_2 = BottlePerDay*CastomDays_2;
+
+        int CastomDays_3 = CastomDays_2*10;
+        int BottlePerMounth = BottlePerDay*CastomDays_3;
+
+        System.out.println("За "+ CastomMinutes+ " минут машина произвела " +BottlePerCastomMinutes+ " бутылок");
+        System.out.println("За "+ CastomDays + " сутки машина произвела " +BottlePerCastomDays_1+ " бутылок");
+        System.out.println("За "+ CastomDays_2 + " суток машина произвела " +BottlePerCastomDays_2+ " бутылок");
+        System.out.println("За "+ CastomDays_3 + " суток машина произвела " +BottlePerMounth+ " бутылок");
+
+
+
+
+
         System.out.println();
 
     }
