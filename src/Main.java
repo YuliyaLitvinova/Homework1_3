@@ -61,7 +61,7 @@ public class Main {
         int CastomDays = 1;
         int BottlePerCastomDays_1 = BottlePerDay*CastomDays;
 
-       int CastomDays_2 = CastomDays +2;
+        int CastomDays_2 = CastomDays +2;
         int BottlePerCastomDays_2 = BottlePerDay*CastomDays_2;
 
         int CastomDays_3 = CastomDays_2*10;
@@ -71,16 +71,18 @@ public class Main {
         System.out.println("За "+ CastomDays + " сутки машина произвела " +BottlePerCastomDays_1+ " бутылок");
         System.out.println("За "+ CastomDays_2 + " суток машина произвела " +BottlePerCastomDays_2+ " бутылок");
         System.out.println("За "+ CastomDays_3 + " суток машина произвела " +BottlePerMounth+ " бутылок");
-
-
-
-
-
         System.out.println();
 
     }
     public static void task5 () {
         System.out.println("Задача 5");
+        int TotalPaint = 120;
+        byte WhitePaintPerRoom = 2;
+        byte BrownPaintPerRoom = 4;
+        int TotalRooms = TotalPaint / (WhitePaintPerRoom+BrownPaintPerRoom);
+        int TotalBrownPaint = TotalRooms*BrownPaintPerRoom;
+        int TotalWhitePaint = TotalRooms*WhitePaintPerRoom;
+        System.out.println("В школе, где "+ TotalRooms+ " классов, нужно " + TotalBrownPaint+ " банок коричневой краски и " + TotalWhitePaint + " банок белой краски.");
         System.out.println();
 
     }
